@@ -11,7 +11,8 @@ This work is licensed under the [Creative Commons Attribution-NonCommercial 4.0 
 * Cables, plugs and soldering tools to connect the ergometer to the breadboard -- for [Ultrasport F-Bike 150/200B](http://tinyurl.com/jlqnbna) a female TS and TSR jack were attached to the two male output jacks. Optionally the rather short cable of the pulse sensor can be extended.
 
 ## How To
-1. Set up following circuit and plug in ergometer as well as pulse sensor.
+1. Set up following circuit and plug in ergometer as well as pulse sensor:
+![alt tag](https://raw.githubusercontent.com/amplejoe/FitnessInputConverterArduino/master/img/RPM_HANDLES_BPM_sensor.png)
 2. Plug in a contact breaker cable from digital PIN 4 to GND, in order to enable manual interruption of the keyboard functionality (key presses can be disturbing when games are not running). 
 3. Change interruptSetup() in ([Interrupt.ino](https://github.com/amplejoe/FitnessInputConverterArduino/blob/master/InputConverter/Interrupt.ino)) to work with your Arduino -- setup instructions can be found in ([Timer_Interrupt_Notes.ino](https://github.com/amplejoe/FitnessInputConverterArduino/blob/master/InputConverter/Timer_Interrupt_Notes.ino)).
 4. Configure the sketch to work with [Flappy Cycling](https://github.com/amplejoe/FlappyCycling) or [Quake 3 Fitness Edition](https://github.com/amplejoe/Q3AErgo) by changing the cfg variable in [InputConverter.ino](https://github.com/amplejoe/FitnessInputConverterArduino/blob/master/InputConverter/InputConverter.ino).
