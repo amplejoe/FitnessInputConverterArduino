@@ -20,8 +20,6 @@ This work is licensed under the [Creative Commons Attribution-NonCommercial 4.0 
 
 ## Functionality
 
-### Flappy Cycling Mode
-presses 'x' key on every ergometer pedal cycle or 'z'/'c' keys on pulse handle touch
-### Quake 3 Arena Mode:
-presses 'x' key on every ergometer pedal cycle or 'h' key on puls sensor heart beat
+* Flappy Cycling Mode (cfg=0): presses 'x' key on every ergometer pedal cycle or 'z'/'c' keys on pulse handle touch
+* Quake 3 Arena Mode (cfg=1):  presses 'x' key on every ergometer pedal cycle or 'h' key on puls sensor heart beat
 
