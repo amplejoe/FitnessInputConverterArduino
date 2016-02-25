@@ -8,7 +8,7 @@ This work is licensed under the [Creative Commons Attribution-NonCommercial 4.0 
 * Pulse Sensor from [pulsesensor.com](http://pulsesensor.com/).
 * An Arduino device -- the files are configured for [Arduino Leonardo](https://www.arduino.cc/en/Main/ArduinoBoardLeonardo), but can be reconfigured (see below).
 * A breadboard to build the circuit on.
-* Cables and soldering tools to connect the ergometer to the breadboard -- for [Ultrasport F-Bike 150/200B](http://tinyurl.com/jlqnbna) a female TS and TSR jack were attached to the two male output jacks. Optionally the rather short cable of the pulse sensor can be extended.
+* Cables, plugs and soldering tools to connect the ergometer to the breadboard -- for [Ultrasport F-Bike 150/200B](http://tinyurl.com/jlqnbna) a female TS and TSR jack were attached to the two male output jacks. Optionally the rather short cable of the pulse sensor can be extended.
 
 ## How To
 1. Set up following circuit and plug in ergometer as well as pulse sensor.
