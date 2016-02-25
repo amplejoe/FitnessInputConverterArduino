@@ -12,7 +12,7 @@ This work is licensed under the [Creative Commons Attribution-NonCommercial 4.0 
 
 ## How To
 1. Set up following circuit and plug in ergometer as well as pulse sensor.
-2. Plug in a contact breaker cable in order to enable interrupting the keyboard functionality temporary (key presses can be disturbing when games are not running). 
+2. Plug in a contact breaker cable from digital PIN 4 to GND, in order to enable manual interruption of the keyboard functionality (key presses can be disturbing when games are not running). 
 3. Change interruptSetup() in ([Interrupt.ino](https://github.com/amplejoe/FitnessInputConverterArduino/blob/master/InputConverter/Interrupt.ino)) to work with your Arduino -- setup instructions can be found in ([Timer_Interrupt_Notes.ino](https://github.com/amplejoe/FitnessInputConverterArduino/blob/master/InputConverter/Timer_Interrupt_Notes.ino)).
 4. Configure the sketch to work with [Flappy Cycling](https://github.com/amplejoe/FlappyCycling) or [Quake 3 Fitness Edition](https://github.com/amplejoe/Q3AErgo) by changing the cfg variable in [InputConverter.ino](https://github.com/amplejoe/FitnessInputConverterArduino/blob/master/InputConverter/InputConverter.ino).
 5. Compile and Upload code to Arduino
